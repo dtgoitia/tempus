@@ -44,3 +44,6 @@ jobs:
 
       - name: Remove source
         run: rm -rf build/static/js/*.map
+
+      - name: Deploy to GitHub pages
+        run: npm run deploy
